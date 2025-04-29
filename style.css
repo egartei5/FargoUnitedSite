@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-color: #cce6ff;
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-top: 0;
+  }
+  
+  .players {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .player-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #e6f2ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    margin: 10px 0 5px;
+  }
+  
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .schedule {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #003366;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #003366;
+    color: white;
+  }
+  .contact {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .gallery {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-grid img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  .roster {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .roster table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .roster th, .roster td {
+    border: 1px solid #003366;
+    padding: 10px;
+  }
+  
+  .roster th {
+    background-color: #003366;
+    color: white;
+  }
+  
