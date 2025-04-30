@@ -2,35 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View the Fargo United soccer team in action with our photo gallery.">
   <title>Fargo United | Gallery</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding-top: 20px;
+    }
+
+    .gallery-grid img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 768px) {
+      .gallery-grid img {
+        width: 90%;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="roster.html">Team</a>
       <a href="schedule.html">Schedule</a>
-      <a href="contact.html">Contact</a>
       <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="gallery">
-      <h2>Match Day Highlights</h2>
+      <h2>Match Highlights</h2>
       <div class="gallery-grid">
-        <img src="images/gallery1.jpg" alt="Game 1">
-        <img src="images/gallery2.jpg" alt="Game 2">
-        <img src="images/gallery3.jpg" alt="Game 3">
-        <img src="images/gallery4.jpg" alt="Training">
-        <!-- Add more images here -->
+        <img src="images/gallery1.jpg" alt="Match Day 1">
+        <img src="images/gallery2.jpg" alt="Team Celebration">
+        <img src="images/gallery3.jpg" alt="Training Session">
+        <img src="images/gallery4.jpg" alt="Goal in Action">
+        <img src="images/gallery5.jpg" alt="Team Photo">
+        <img src="images/gallery6.jpg" alt="Fans in the Stands">
+        <!-- Add more images as needed -->
       </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Fargo United. All rights reserved.</p>
+    <div class="social">
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://youtube.com" target="_blank">YouTube</a> |
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
   </footer>
 </body>
 </html>

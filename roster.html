@@ -2,54 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet the Fargo United soccer team roster with player positions and stats.">
   <title>Fargo United | Team Roster</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .player-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .player-card {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .player-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .player-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .player-card p {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="roster.html">Team</a>
       <a href="schedule.html">Schedule</a>
-      <a href="roster.html">Roster</a>
-      <a href="contact.html">Contact</a>
       <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="roster">
       <h2>Meet the Team</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Jersey #</th>
-            <th>Name</th>
-            <th>Position</th>
-            <th>Hometown</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>7</td>
-            <td>John Doe</td>
-            <td>Forward</td>
-            <td>Fargo, ND</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Alex Smith</td>
-            <td>Goalkeeper</td>
-            <td>Grand Forks, ND</td>
-          </tr>
-          <!-- Add more players -->
-        </tbody>
-      </table>
+      <div class="player-cards">
+        <div class="player-card">
+          <img src="images/player1.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>#7 - Forward</p>
+          <p>Fargo, ND</p>
+        </div>
+
+        <div class="player-card">
+          <img src="images/player2.jpg" alt="Alex Smith">
+          <h3>Alex Smith</h3>
+          <p>#1 - Goalkeeper</p>
+          <p>Grand Forks, ND</p>
+        </div>
+
+        <div class="player-card">
+          <img src="images/player3.jpg" alt="Luis Torres">
+          <h3>Luis Torres</h3>
+          <p>#10 - Midfielder</p>
+          <p>Bismarck, ND</p>
+        </div>
+        <!-- Add more player cards here -->
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Fargo United. All rights reserved.</p>
+    <div class="social">
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://youtube.com" target="_blank">YouTube</a> |
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
   </footer>
 </body>
 </html>
