@@ -3,10 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="View the Fargo United soccer team in action with our photo gallery.">
+  <meta name="description" content="Fargo United match highlight photos and team moments.">
   <title>Fargo United | Gallery</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    .logo {
+      width: 60px;
+      height: auto;
+      float: left;
+      margin-right: 15px;
+    }
+
     .gallery-grid {
       display: flex;
       flex-wrap: wrap;
@@ -20,7 +27,7 @@
       height: 200px;
       object-fit: cover;
       border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     }
 
     @media (max-width: 768px) {
@@ -32,6 +39,7 @@
 </head>
 <body>
   <header>
+    <img src="images/fargo-united-logo.jpeg" alt="Fargo United Logo" class="logo">
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
@@ -48,12 +56,12 @@
       <h2>Match Highlights</h2>
       <div class="gallery-grid">
         <img src="images/gallery1.jpg" alt="Match Day 1">
-        <img src="images/gallery2.jpg" alt="Team Celebration">
+        <img src="images/gallery2.jpg" alt="Celebration Moment">
         <img src="images/gallery3.jpg" alt="Training Session">
-        <img src="images/gallery4.jpg" alt="Goal in Action">
+        <img src="images/gallery4.jpg" alt="Goal Celebration">
         <img src="images/gallery5.jpg" alt="Team Photo">
-        <img src="images/gallery6.jpg" alt="Fans in the Stands">
-        <!-- Add more images as needed -->
+        <img src="images/gallery6.jpg" alt="Fans Supporting">
+        <!-- Add more images here -->
       </div>
     </section>
   </main>

@@ -3,15 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Meet the Fargo United soccer team roster with player positions and stats.">
+  <meta name="description" content="Meet the official Fargo United soccer team roster.">
   <title>Fargo United | Team Roster</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    .logo {
+      width: 60px;
+      height: auto;
+      float: left;
+      margin-right: 15px;
+    }
+
     .player-cards {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
+      margin-top: 20px;
     }
 
     .player-card {
@@ -24,14 +32,6 @@
       text-align: center;
     }
 
-    .player-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
-
     .player-card h3 {
       margin: 10px 0 5px;
     }
@@ -39,10 +39,18 @@
     .player-card p {
       margin: 0;
     }
+
+    @media (max-width: 768px) {
+      .player-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="images/fargo-united-logo.jpeg" alt="Fargo United Logo" class="logo">
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
@@ -58,27 +66,62 @@
     <section class="roster">
       <h2>Meet the Team</h2>
       <div class="player-cards">
+
         <div class="player-card">
-          <img src="images/player1.jpg" alt="John Doe">
-          <h3>John Doe</h3>
-          <p>#7 - Forward</p>
-          <p>Fargo, ND</p>
+          <h3>Preston</h3>
+          <p>#1 – Midfield</p>
         </div>
 
         <div class="player-card">
-          <img src="images/player2.jpg" alt="Alex Smith">
-          <h3>Alex Smith</h3>
-          <p>#1 - Goalkeeper</p>
-          <p>Grand Forks, ND</p>
+          <h3>Walla</h3>
+          <p>#2 – Defender</p>
         </div>
 
         <div class="player-card">
-          <img src="images/player3.jpg" alt="Luis Torres">
-          <h3>Luis Torres</h3>
-          <p>#10 - Midfielder</p>
-          <p>Bismarck, ND</p>
+          <h3>Enoch</h3>
+          <p>#3 – Forward</p>
         </div>
-        <!-- Add more player cards here -->
+
+        <div class="player-card">
+          <h3>Oumar</h3>
+          <p>#4 – Midfield</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Sammy</h3>
+          <p>#5 – Defender</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Song</h3>
+          <p>#6 – Goalkeeper</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Ele</h3>
+          <p>#7 – Midfield</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Elijah</h3>
+          <p>#8 – Defender</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Kante</h3>
+          <p>#9 – Forward</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Leo</h3>
+          <p>#10 – Midfield</p>
+        </div>
+
+        <div class="player-card">
+          <h3>Suah</h3>
+          <p>#11 – Goalkeeper</p>
+        </div>
+
       </div>
     </section>
   </main>

@@ -2,40 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fargo United Soccer Team weekly practice and match schedule.">
   <title>Fargo United | Schedule</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .logo {
+      width: 60px;
+      height: auto;
+      float: left;
+      margin-right: 15px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #003366;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
+    <img src="images/fargo-united-logo.jpeg" alt="Fargo United Logo" class="logo">
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
+      <a href="roster.html">Team</a>
       <a href="schedule.html">Schedule</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="schedule">
-      <h2>Upcoming Games</h2>
+      <h2>Weekly Practice & Game Schedule</h2>
       <table>
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Opponent</th>
-            <th>Location</th>
+            <th>Day</th>
+            <th>Activity</th>
+            <th>Time</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>May 5, 2025</td>
-            <td>Grand Forks FC</td>
-            <td>Fargo Stadium</td>
+            <td>Monday</td>
+            <td>Practice</td>
+            <td>6:00 PM – 8:30 PM</td>
           </tr>
           <tr>
-            <td>May 12, 2025</td>
-            <td>Bismarck Warriors</td>
-            <td>United Arena</td>
+            <td>Tuesday</td>
+            <td>Practice</td>
+            <td>6:00 PM – 8:30 PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Practice</td>
+            <td>6:00 PM – 8:30 PM</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Practice</td>
+            <td>6:00 PM – 8:30 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Practice</td>
+            <td>6:00 PM – 8:30 PM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Game Day</td>
+            <td>Time Varies</td>
           </tr>
         </tbody>
       </table>
@@ -43,16 +100,12 @@
   </main>
 
   <footer>
-    <footer>
-        <p>&copy; 2025 Fargo United. All rights reserved.</p>
-        <div class="social">
-          <a href="https://instagram.com" target="_blank">Instagram</a> |
-          <a href="https://youtube.com" target="_blank">YouTube</a> |
-          <a href="https://tiktok.com" target="_blank">TikTok</a>
-        </div>
-      </footer>
-      
     <p>&copy; 2025 Fargo United. All rights reserved.</p>
+    <div class="social">
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://youtube.com" target="_blank">YouTube</a> |
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </div>
   </footer>
 </body>
 </html>
