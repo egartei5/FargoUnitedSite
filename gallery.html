@@ -10,21 +10,34 @@
     .logo {
       width: 60px;
       height: auto;
-      float: left;
       margin-right: 15px;
     }
 
     header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       background-color: #003366;
       color: white;
       padding: 15px 20px;
     }
 
+    .header-top {
+      display: flex;
+      align-items: center;
+    }
+
+    .header-top h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
     nav a {
-      margin: 0 10px;
       text-decoration: none;
       color: white;
       font-weight: bold;
@@ -32,6 +45,11 @@
 
     nav a:hover {
       text-decoration: underline;
+    }
+
+    .gallery {
+      padding: 40px 20px;
+      text-align: center;
     }
 
     .gallery-grid {
@@ -77,8 +95,10 @@
 </head>
 <body>
   <header>
-    <img src="fargo-united-logo.png.jpeg" alt="Fargo United Logo" class="logo">
-    <h1>Fargo United Soccer Team</h1>
+    <div class="header-top">
+      <img src="fargo-united-logo.png.jpeg" alt="Fargo United Logo" class="logo">
+      <h1>Fargo United Soccer Team</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="roster.html">Team</a>
