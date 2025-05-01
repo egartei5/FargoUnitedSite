@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Meet the official Fargo United soccer team roster."/>
+  <meta name="description" content="Meet the Fargo United Soccer Team players."/>
   <title>Fargo United | Team Roster</title>
   <link rel="stylesheet" href="style.css" />
   <style>
@@ -14,43 +14,66 @@
       margin-right: 15px;
     }
 
-    .player-cards {
+    header {
       display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-      margin-top: 20px;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #003366;
+      color: white;
+      padding: 15px 20px;
     }
 
-    .player-card {
-      background-color: white;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 20px;
-      width: 250px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .roster {
+      padding: 40px 20px;
       text-align: center;
     }
 
+    .player-card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px auto;
+      max-width: 400px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
     .player-card h3 {
-      margin: 10px 0 5px;
+      margin: 5px 0;
     }
 
-    .player-card p {
-      margin: 0;
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
     }
 
-    @media (max-width: 768px) {
-      .player-cards {
-        flex-direction: column;
-        align-items: center;
-      }
+    .social a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .social a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="images/fargo-united-logo.png" alt="Fargo United Logo" class="logo" />
+    <img src="fargo-united-logo.png.jpeg" alt="Fargo United Logo" class="logo" />
     <h1>Fargo United Soccer Team</h1>
     <nav>
       <a href="index.html">Home</a>
@@ -65,23 +88,21 @@
   <main>
     <section class="roster">
       <h2>Meet the Team</h2>
-      <div class="player-cards">
 
-        <div class="player-card"><h3>Preston</h3><p>Defender</p></div>
-        <div class="player-card"><h3>Walla</h3><p>Forward</p></div>
-        <div class="player-card"><h3>Song</h3><p>Midfielder</p></div>
-        <div class="player-card"><h3>Kante</h3><p>Midfielder</p></div>
-        <div class="player-card"><h3>Leo</h3><p>Goalkeeper</p></div>
-        <div class="player-card"><h3>Suah</h3><p>Defender</p></div>
-        <div class="player-card"><h3>Thomas</h3><p>Defender</p></div>
-        <div class="player-card"><h3>Moses</h3><p>Forward</p></div>
-        <div class="player-card"><h3>Jefferson</h3><p>Midfielder</p></div>
-        <div class="player-card"><h3>PK</h3><p>Goalkeeper</p></div>
-        <div class="player-card"><h3>Daniel</h3><p>Midfielder</p></div>
-        <div class="player-card"><h3>RJ</h3><p>Forward</p></div>
-        <div class="player-card"><h3>Coach T</h3><p>Midfielder</p></div>
+      <div class="player-card"><h3>Preston</h3><p># - Defender</p></div>
+      <div class="player-card"><h3>Walla</h3><p># - Forward</p></div>
+      <div class="player-card"><h3>Song</h3><p># - Midfielder</p></div>
+      <div class="player-card"><h3>Kante</h3><p># - Midfielder</p></div>
+      <div class="player-card"><h3>Leo</h3><p># - Goalkeeper</p></div>
+      <div class="player-card"><h3>Suah</h3><p># - Defender</p></div>
+      <div class="player-card"><h3>Thomas</h3><p># - Defender</p></div>
+      <div class="player-card"><h3>Moses</h3><p># - Forward</p></div>
+      <div class="player-card"><h3>Jefferson</h3><p># - Midfielder</p></div>
+      <div class="player-card"><h3>PK</h3><p># - Goalkeeper</p></div>
+      <div class="player-card"><h3>Daniel</h3><p># - Midfielder</p></div>
+      <div class="player-card"><h3>RJ</h3><p># - Forward</p></div>
+      <div class="player-card"><h3>Coach T</h3><p># - Midfielder</p></div>
 
-      </div>
     </section>
   </main>
 
